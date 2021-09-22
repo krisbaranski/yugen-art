@@ -1,32 +1,34 @@
-import React from "react"
-import Link from "gatsby-link"
-import Layout from "../components/layout"
+import * as React from "react"
+import { Link } from "gatsby"
 
 const Menu = () => (
-  <Layout
+  <div
     style={{
       backgroundColor: `#f4f4f4`,
-      paddingTop: `20px`,
+      paddingTop: `10px`,
     }}
   >
     <ul
       style={{
         listStyle: `none`,
         display: `flex`,
-        justifyContent: `space-evenly`,
+        justifyContent: `space-around`,
       }}
     >
       <li>
         <Link to="/works">Works</Link>
       </li>
       <li>
-        <Link to="/simulation">Simulation</Link>
+        <Link to="/blog">Blog</Link>
+      </li>
+      <li>
+        <Link to="/simulations">Simulations</Link>
       </li>
       <li>
         <Link to="/contact">Contact</Link>
       </li>
     </ul>
-  </Layout>
+  </div>
 )
 
 export default Menu

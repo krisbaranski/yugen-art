@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const WorksPage = () => (
   <Layout>
+    <Seo title="Works" />
     <h1>Works</h1>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, quia

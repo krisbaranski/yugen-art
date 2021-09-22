@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
-const Simulation = () => (
+const Simulations = () => (
   <Layout>
+    <Seo title="Simulations" />
     <h1>Simulations</h1>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, quia
@@ -13,4 +15,4 @@ const Simulation = () => (
   </Layout>
 )
 
-export default Simulation
+export default Simulations
